@@ -5,34 +5,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
   </head>
   <body>
 
-      <div class="nav w-full h-[60px] bg-red-950 flex content-center pl-[10px]  "  >
+      <div class="fixed nav w-full h-[60px] bg-[#72000057] backdrop-blur-sm flex content-center pl-[20px] absolute top-0 border-b-2 border-[#ffffff28] "  >
 
         <div class="logo w-[50px] content-center ">
           <img  src="logo.png" alt="" >
         </div>
-
-        <div class="burger content-center  ml-auto p-[10px] ">
-          <button id="burger" class=" w-8 h-8 flex flex-col justify-center items-center group absolute left-[90%] top-3">
+          <div class=" font-sanserif text-[#e4211d] font-semibold flex  absolute w-[100vw] left-0 h-[60px] justify-center items-center">
+            <h1>ALA-CARTE MENU</h1>
+          </div>
+        <div class="burger content-center   ">
+          <button id="burger" class=" w-15 h-15 flex flex-col justify-center items-center group absolute left-[85%] top-3">
             <span class="block absolute h-1 w-6 bg-black rounded transition-all duration-300 top-2 group-[.open]:rotate-45 group-[.open]:top-4"></span>
             <span class="block absolute h-1 w-6 bg-black rounded transition-all duration-300 top-4 group-[.open]:opacity-0"></span>
             <span class="block absolute h-1 w-6 bg-black rounded transition-all duration-300 top-6 group-[.open]:-rotate-45 group-[.open]:top-4"></span>
           </button>
         
           
-          <div id="menu" class="mt-14 w-[20vh] hidden flex flex-col gap-2 border p-3 rounded h-[90vh] bg-red-950 ">
-            <a href="#" class="font-pantograph text-[#e4211d] bg-black pl-[10px] rounded">Home</a>
-            <a href="#" class="font-pantograph text-[#e4211d] bg-black pl-[10px] rounded">About</a>
-            <a href="#" class="font-pantograph text-[#e4211d] bg-black pl-[10px] rounded">Contact</a>
+          <div id="menu" class="mt-14 z-100 w-[30vh] hidden flex flex-col gap-2  p-3 rounded h-[95vh] bg-[#380000] backdrop-blur-sm absolute right-[0px] top-[4px] ">
+            <a href="#" class="font-sanserif text-[#e4211d] bg-black rounded h-10 text-center content-center font-bold">Home</a>
+            <a href="#" class="font-sanserif text-[#e4211d] bg-black rounded h-10 text-center content-center font-bold"">About</a>
+            <a href="#" class="font-sanserif text-[#e4211d] bg-black rounded h-10 text-center content-center font-bold"">Contact</a>
           </div>
         
           <script src="humb.js"></script>
         </div>
       </div>
 
+      
 
+      
+      <div class="relative overflow-hidden bg-black menucontainer w-[95%] -z-10 border-2 border-red-500 flex justify-self-center mt-20 ">
+      <div class="swiper-container mySwiper">
+        <div class="swiper-wrapper">
+          <img src="banner1.png" alt="" class="swiper-slide">
+          <img src="banner2.png" alt="" class="swiper-slide">
+        </div>
+        
+      </div>
+
+      </div>
+
+      <script>
+        var swiper = new Swiper(".mySwiper", {
+          spaceBetween: 30,
+          centeredSlides: true,
+          autoplay: {
+            delay: 1500,
+            disableOnInteraction: false
+          },
+          
+        });
+      </script>
+    </head>
+  
+    <body>
+      
+  
+  
+      
+  
+      
       
   </body>
 </html>
