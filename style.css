@@ -1,52 +1,48 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
-
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Jua&display=swap');
 
 body{
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: rgb(109, 0, 0);
-  scroll-behavior: smooth;
-  
+    font-family: 'Inter', sans-serif;
+    background-color: #0d0d0d; 
+    
+}
+
+.title{
+    font-family: 'jua', sans-serif;
+}
+
+.charcoal{
+    background-color: #121212;
+}
+.korean-red{
+    color: #D62828;
 }
 
 .scrollbar-hide::-webkit-scrollbar {
-  display: none;
+    display: none;
 }
 
 
 .swiper-container {
-  width: 100%;
-  height: 100%;
-  }
+    width: 100%;
+    height: 100%;
+    display: flex;
+    
+}
 
-.swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
-
-  
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  -webkit-align-items: center;
-  align-items: center;
-  }
 
 .swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  }
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card h2,p{
+    font-family: 'jua',san-serif;
+}
 
 @keyframes appear{
     from{
@@ -113,4 +109,7 @@ body{
 
 .swifercontainer{
   animation: slideleft 1s ease-in-out ;
+}
+.card img,p{
+    z-index: -1;
 }
