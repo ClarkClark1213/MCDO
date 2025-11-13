@@ -13,33 +13,33 @@
 
 <body>
     
-    <div class="nav w-[100vw] h-[50px]  lg:h-20  charcoal  flex  px-[30px]  sm:px-10 md:px-20 shadow-[0px_0px_5px_1px_black] fixed top-0">
+    <div class="nav w-[100vw] h-[60px]  lg:h-20  charcoal  flex  px-[30px]  sm:px-10 md:px-20 shadow-[0px_0px_5px_1px_black] fixed top-0 z-50 ">
 
             <div class="logo w-auto border-red-200 flex items-center">
-                <img src="logo.png" alt="" class="w-[40px] lg:w-14  ">
-                <h1 class="title font-extrabold korean-red lg:text-[25px] md:text-[22px] " >THE SAMGYUP SPOT</h1>
+                <img src="logo.png" alt="" class="w-[50px] lg:w-20  ">
+                <h1 class="title font-extrabold korean-red lg:text-[25px] md:text-[22px] " >THE SAMGYUP SPOT <br><div class="amber">삼겹 자리</div></h1>
             </div>
 
-            <div class="lgmenu korean-red title ml-auto items-center  gap-5 hidden md:flex lg:text-[25px] md:text-[22px] ">
-                <a href="">HOME</a>
-                <a href="">ABOUT</a>
-                <a href="">MENU</a>
-                <a href="">CONTACT</a>
+            <div class="lgmenu korean-red title ml-auto items-center  gap-5 hidden md:flex lg:text-[25px] md:text-[22px]  ">
+                <a href="" class="content">HOME</a>
+                <a href="" class="content">ABOUT</a>
+                <a href="index.html" class="content">MENU</a>
+                <a href="contact.html" class="content">CONTACT</a>
             </div>
 
             <div class="burger content-center flex  md:hidden  ">
-                <button id="burger" class=" w-14 h-14 flex flex-col justify-center items-center group absolute left-[80%] top-[6px] ">
+                <button id="burger" class=" w-14 h-14 flex flex-col justify-center items-center group absolute left-[80%] top-[10px] ">
                     <span class="block absolute h-1 w-6 bg-[#e4211d] rounded transition-all duration-300 top-2 group-[.open]:rotate-45 group-[.open]:top-4"></span>
                     <span class="block absolute h-1 w-6 bg-[#e4211d] rounded transition-all duration-300 top-4 group-[.open]:opacity-0"></span>
                     <span class="block absolute h-1 w-6 bg-[#e4211d] rounded transition-all duration-300 top-6 group-[.open]:-rotate-45 group-[.open]:top-4"></span>
                 </button>
             </div>
                 
-            <div id="menu" class="mt-12 z-12 w-[30vh] hidden flex flex-col gap-3  p-3  h-[95vh] charcoal  absolute right-[0px] top-[4px] ">
+            <div id="menu" class="mt-12  w-[30vh] hidden flex flex-col gap-3  p-3  h-[95vh] bg-[#121212]  absolute right-[0%] top-[3px] content">
                 <a href="" class="  h-10 mt-5 text-center content-center font-bold korean-red title  " >HOME</a>
-                <a href="about.html" class="  h-10 text-center content-center font-bold korean-red title ">ABOUT</a>
-                <a href="#" class="  h-10 text-center content-center font-bold korean-red title ">MENU</a>
-                <a href="index.html" class="  h-10 text-center content-center font-bold korean-red title ">CONTACT</a>
+                <a href="" class="  h-10 text-center content-center font-bold korean-red title ">ABOUT</a>
+                <a href="index.html" class="  h-10 text-center content-center font-bold korean-red title ">MENU</a>
+                <a href="contact.html" class="  h-10 text-center content-center font-bold korean-red title ">CONTACT</a>
                 
             </div>
 
@@ -49,7 +49,7 @@
 
 
 
-    <div class="swifercontainer relative overflow-hidden bg-black  w-[95%] -z-10  flex justify-self-center mt-[90px] scroll-smooth md:mt-40 md:hidden border-4 border-[#d62828] rounded-xl">
+    <div class="swifercontainer relative overflow-hidden bg-black  w-[95%] -z-10  flex justify-self-center mt-[90px] scroll-smooth md:mt-40 md:hidden border-4 border-[#FFBF00] rounded-2xl ">
             <div class="swiper-container mySwiper">
                 <div class="swiper-wrapper">
                 <img src="banner1.png" alt="" class="swiper-slide">
@@ -60,7 +60,7 @@
             </div>
         </div>
         
-        <div class="swifercontainer relative overflow-hidden bg-black  w-[50%] -z-10   justify-self-center mt-30 scroll-smooth  hidden md:flex border-4 border-[#D62828] rounded-2xl ">
+        <div class="swifercontainer relative overflow-hidden bg-black  w-[50%] -z-10   justify-self-center mt-30 scroll-smooth  hidden md:flex border-4 border-[#FFBF00] rounded-2xl ">
             <div class="swiper-container mySwiper">
                 <div class="swiper-wrapper">
                 <img src="banner1n2.png" alt="" class="swiper-slide">
@@ -86,202 +86,202 @@
         });
     </script>
 
-    <div class="menucontainer  flex-col w-[95%] justify-self-center h-[90vh] overflow-hidden overflow-y-scroll  mt-5 scrollbar-hide gap-20 ">
-        <div class="menunav justify-self-center justify-items-center content-center font-bold text-[#e4211d] [text-shadow:4px_4px_8px_black] w-full h-10   top-[-1.5px] sticky charcoal z-10 border-4 border-[#D62828] rounded-xl"><h2>ALACARTE MENU</h2></div>
+    <div class="menucontainer -z-11  flex-col w-[95%] justify-self-center h-[92vh] overflow-hidden overflow-y-scroll  mt-5 scrollbar-hide gap-15 ">
+        <div class="menunav  justify-self-center justify-items-center content-center font-bold text-[#D62828] title w-full h-10 z-10  top-[-1.5px] sticky charcoal border-2 border-[#FFBF00] rounded-2xl mt-0 : "><h2>ALACARTE MENU</h2></div>
 
-        <div class="card  w-[90%] flex justify-self-center h-40 mt-10 rounded shadow-[0px_0px_5px_1px_black] border-1 border-[#d6282850] ">
+        <div class="card  w-[90%] flex justify-self-center h-40 mt-10 rounded shadow-[0px_0px_5px_1px_black] border-1 border-[#FFBF00] ">
             <div class="details  flex-row w-[50%] h-full justify-center p-[5px] text-center">
-                <h2 class=" font-bold text-[red] [text-shadow:4px_4px_8px_black] ">BEEF-DOSERAK</h2>
+                <h2 class=" font-bold text-[#D62828] [text-shadow:4px_4px_8px_black] ">BEEF-DOSERAK</h2>
                 <p class="text-[11px] font-simibold text-[white] [text-shadow:0px_0px_10px_black]">Beef dosirak is a Korean lunchbox meal with seasoned beef, rice, and simple side dishes.</p>
                 <div class="price font-bold flex justify-center mt-3 shadow-[inset_0_0px_6px_1px_black] h-10 items-center rounded ">
-                <h4 class="text-[#8ab319] flex text-[15px]">₱ 199 </h4> 
+                <h4 class="text-[#ffbf00] flex text-[15px]">₱ 199 </h4> 
             </div>
         </div>
             <img src="BEEF-DOSIRAK.png" alt="" class=" flex w-[50%] h-full object-cover ">
         </div>
 
-        <div class="card  w-[90%] flex justify-self-center h-40 mt-10 rounded shadow-[0px_0px_5px_1px_black] border-1 border-[#d6282850]  ">
+        <div class="card  w-[90%] flex justify-self-center h-40 mt-10 rounded shadow-[0px_0px_5px_1px_black] border-1 border-[#FFBF00]  ">
             <div class="details  flex-row w-[50%] h-full justify-center p-[5px] text-center">
-                <h2 class=" font-bold text-[red] [text-shadow:4px_4px_8px_black] ">PORK-DOSERAK</h2>
+                <h2 class=" font-bold text-[#D62828] [text-shadow:4px_4px_8px_black] ">PORK-DOSERAK</h2>
                 <p class="text-[11px] font-simibold text-[white] [text-shadow:0px_0px_10px_black]">Beef dosirak is a Korean lunchbox meal with seasoned beef, rice, and simple side dishes.</p>
                 <div class="price font-bold flex justify-center mt-3 shadow-[inset_0_0px_6px_1px_black] h-10 items-center rounded ">
-                <h4 class="text-[#8ab319] flex text-[15px]">₱ 199 </h4> 
+                <h4 class="text-[#ffbf00] flex text-[15px]">₱ 199 </h4> 
             </div>
         </div>
             <img src="PORK-DOSIRAK.png" alt="" class=" flex w-[50%] h-full object-cover ">
         </div>
 
-        <div class="card  w-[90%] flex justify-self-center h-40 mt-10 rounded shadow-[0px_0px_5px_1px_black] border-1 border-[#d6282850] ">
+        <div class="card  w-[90%] flex justify-self-center h-40 mt-10 rounded shadow-[0px_0px_5px_1px_black] border-1 border-[#FFBF00] ">
             <div class="details  flex-row w-[50%] h-full justify-center p-[5px] text-center">
-                <h2 class=" font-bold text-[red] [text-shadow:4px_4px_8px_black] ">FCB-DOSERAK</h2>
+                <h2 class=" font-bold text-[#D62828] [text-shadow:4px_4px_8px_black] ">FCB-DOSERAK</h2>
                 <p class="text-[11px] font-simibold text-[white] [text-shadow:0px_0px_10px_black]">FCB Dosirak is a ready-to-eat Korean-style meal box with flavorful pork, rice, and sides.</p>
                 <div class="price font-bold flex justify-center mt-3 shadow-[inset_0_0px_6px_1px_black] h-10 items-center rounded ">
-                <h4 class="text-[#8ab319] flex text-[15px]">₱ 199 </h4> 
+                <h4 class="text-[#ffbf00] flex text-[15px]">₱ 199 </h4> 
             </div>
         </div>
             <img src="FCB-DOSIRAK.png" alt="" class=" flex w-[50%] h-full object-cover ">
         </div>
 
-        <div class="card  w-[90%] flex justify-self-center h-40 mt-10 rounded shadow-[0px_0px_5px_1px_black] border-1 border-[#d6282850] ">
+        <div class="card  w-[90%] flex justify-self-center h-40 mt-10 rounded shadow-[0px_0px_5px_1px_black] border-1 border-[#FFBF00] ">
             <div class="details  flex-row w-[50%] h-full justify-center p-[5px] text-center">
-                <h2 class=" font-bold text-[red] [text-shadow:4px_4px_8px_black] ">K-BOWLS CHIKEN</h2>
+                <h2 class=" font-bold text-[#D62828] [text-shadow:4px_4px_8px_black] ">K-BOWLS CHIKEN</h2>
                 <p class="text-[11px] font-simibold text-[white] [text-shadow:0px_0px_10px_black]">Beef dosirak is a Korean lunchbox meal with seasoned beef, rice, and simple side dishes.</p>
                 <div class="price font-bold flex justify-center mt-3 shadow-[inset_0_0px_6px_1px_black] h-10 items-center rounded ">
-                <h4 class="text-[#8ab319] flex text-[15px]">₱ 149 </h4> 
+                <h4 class="text-[#ffbf00] flex text-[15px]">₱ 149 </h4> 
             </div>
         </div>
             <img src="FISHCAKE_K-BIMBOWLS_W__DRINKS.png" alt="" class=" flex w-[50%] h-full object-cover ">
         </div>
         
-        <div class="card  w-[90%] flex justify-self-center h-40 mt-10 rounded shadow-[0px_0px_5px_1px_black] border-1 border-[#d6282850] ">
+        <div class="card  w-[90%] flex justify-self-center h-40 mt-10 rounded shadow-[0px_0px_5px_1px_black] border-1 border-[#FFBF00] ">
             <div class="details  flex-row w-[50%] h-full justify-center p-[5px] text-center">
-                <h2 class=" font-bold text-[red] [text-shadow:4px_4px_8px_black] ">K-BOWLS PORK</h2>
+                <h2 class=" font-bold text-[#D62828] [text-shadow:4px_4px_8px_black] ">K-BOWLS PORK</h2>
                 <p class="text-[11px] font-simibold text-[white] [text-shadow:0px_0px_10px_black]">Beef dosirak is a Korean lunchbox meal with seasoned beef, rice, and simple side dishes.</p>
                 <div class="price font-bold flex justify-center mt-3 shadow-[inset_0_0px_6px_1px_black] h-10 items-center rounded ">
-                <h4 class="text-[#8ab319] flex text-[15px]">₱ 149 </h4> 
+                <h4 class="text-[#ffbf00] flex text-[15px]">₱ 149 </h4> 
             </div>
         </div>
             <img src="PORK-GOCHUJANG_K-BIMBOWLS_W__DRINKS.png" alt="" class=" flex w-[50%] h-full object-cover ">
         </div>
 
-        <div class="card  w-[90%] flex justify-self-center h-40 mt-10 rounded shadow-[0px_0px_5px_1px_black] border-1 border-[#d6282850] ">
+        <div class="card  w-[90%] flex justify-self-center h-40 mt-10 rounded shadow-[0px_0px_5px_1px_black] border-1 border-[#FFBF00] ">
             <div class="details  flex-row w-[50%] h-full justify-center p-[5px] text-center">
-                <h2 class=" font-bold text-[red] [text-shadow:4px_4px_8px_black] ">K-BOWLS BEEF</h2>
+                <h2 class=" font-bold text-[#D62828] [text-shadow:4px_4px_8px_black] ">K-BOWLS BEEF</h2>
                 <p class="text-[11px] font-simibold text-[white] [text-shadow:0px_0px_10px_black]">Beef dosirak is a Korean lunchbox meal with seasoned beef, rice, and simple side dishes.</p>
                 <div class="price font-bold flex justify-center mt-3 shadow-[inset_0_0px_6px_1px_black] h-10 items-center rounded ">
-                <h4 class="text-[#8ab319] flex text-[15px]">₱ 149 </h4> 
+                <h4 class="text-[#ffbf00] flex text-[15px]">₱ 149 </h4> 
             </div>
         </div>
             <img src="FCB_K-BIMBOWLS_W__DRINKS.png" alt="" class=" flex w-[50%] h-full object-cover ">
         </div>
 
-        <div class="card  w-[90%] flex justify-self-center h-40 mt-10 rounded shadow-[0px_0px_5px_1px_black] border-1 border-[#d6282850] ">
+        <div class="card  w-[90%] flex justify-self-center h-40 mt-10 rounded shadow-[0px_0px_5px_1px_black] border-1 border-[#FFBF00] ">
             <div class="details  flex-row w-[50%] h-full justify-center p-[5px] text-center">
-                <h2 class=" font-bold text-[red] [text-shadow:4px_4px_8px_black] ">CLASSIC</h2>
+                <h2 class=" font-bold text-[#D62828] [text-shadow:4px_4px_8px_black] ">CLASSIC</h2>
                 <p class="text-[11px] font-simibold text-[white] [text-shadow:0px_0px_10px_black]">Beef dosirak is a Korean lunchbox meal with seasoned beef, rice, and simple side dishes.</p>
             <div class="price font-bold flex justify-center mt-3 shadow-[inset_0_0px_6px_1px_black] h-10 items-center rounded ">
-                <h4 class="text-[#8ab319] flex text-[15px]">₱ 199 </h4> 
+                <h4 class="text-[#ffbf00] flex text-[15px]">₱ 199 </h4> 
             </div>
         </div>
                 <img src="CHESSY-FCB_W_DRINKS.png" alt="" class=" flex w-[50%] h-full object-cover ">
         </div>
         
-        <div class="card  w-[90%] flex justify-self-center h-40 mt-10 rounded shadow-[0px_0px_5px_1px_black] border-1 border-[#d6282850] ">
+        <div class="card  w-[90%] flex justify-self-center h-40 mt-10 rounded shadow-[0px_0px_5px_1px_black] border-1 border-[#FFBF00] ">
             <div class="details  flex-row w-[50%] h-full justify-center p-[5px] text-center">
-                <h2 class=" font-bold text-[red] [text-shadow:4px_4px_8px_black] ">SPICY</h2>
+                <h2 class=" font-bold text-[#D62828] [text-shadow:4px_4px_8px_black] ">SPICY</h2>
                 <p class="text-[11px] font-simibold text-[white] [text-shadow:0px_0px_10px_black]">Beef dosirak is a Korean lunchbox meal with seasoned beef, rice, and simple side dishes.</p>
             <div class="price font-bold flex justify-center mt-3 shadow-[inset_0_0px_6px_1px_black] h-10 items-center rounded ">
-                <h4 class="text-[#8ab319] flex text-[15px]">₱ 199 </h4> 
+                <h4 class="text-[#ffbf00] flex text-[15px]">₱ 199 </h4> 
             </div>
         </div>
             <img src="GOCHUJANG-FCB_W_DRINKS.png" alt="" class=" flex w-[50%] h-full object-cover ">
         </div>
 
-        <div class="card  w-[90%] flex justify-self-center h-40 mt-10 rounded shadow-[0px_0px_5px_1px_black] border-1 border-[#d6282850] ">
+        <div class="card  w-[90%] flex justify-self-center h-40 mt-10 rounded shadow-[0px_0px_5px_1px_black] border-1 border-[#FFBF00] ">
             <div class="details  flex-row w-[50%] h-full justify-center p-[5px] text-center">
-                <h2 class=" font-bold text-[red] [text-shadow:4px_4px_8px_black] ">HONEY</h2>
+                <h2 class=" font-bold text-[#D62828] [text-shadow:4px_4px_8px_black] ">HONEY</h2>
                 <p class="text-[11px] font-simibold text-[white] [text-shadow:0px_0px_10px_black]">Beef dosirak is a Korean lunchbox meal with seasoned beef, rice, and simple side dishes.</p>
                 <div class="price font-bold flex justify-center mt-3 shadow-[inset_0_0px_6px_1px_black] h-10 items-center rounded ">
-                <h4 class="text-[#8ab319] flex text-[15px]">₱ 199 </h4> 
+                <h4 class="text-[#ffbf00] flex text-[15px]">₱ 199 </h4> 
                 </div>
         </div>
             <img src="HONEY-SOY-GARLIC-FCB_W__DRINKS.png" alt="" class=" flex w-[50%] h-full object-cover ">
         </div>
         
-        <div class="card  w-[90%] flex justify-self-center h-40 mt-10 rounded shadow-[0px_0px_5px_1px_black] border-1 border-[#d6282850] ">
+        <div class="card  w-[90%] flex justify-self-center h-40 mt-10 rounded shadow-[0px_0px_5px_1px_black] border-1 border-[#FFBF00] ">
             <div class="details  flex-row w-[50%] h-full justify-center p-[5px] text-center">
-                <h2 class=" font-bold text-[red] [text-shadow:4px_4px_8px_black] ">RABOKKI</h2>
+                <h2 class=" font-bold text-[#D62828] [text-shadow:4px_4px_8px_black] ">RABOKKI</h2>
                 <p class="text-[11px] font-simibold text-[white] [text-shadow:0px_0px_10px_black]">Beef dosirak is a Korean lunchbox meal with seasoned beef, rice, and simple side dishes.</p>
                 <div class="price font-bold flex justify-center mt-3 shadow-[inset_0_0px_6px_1px_black] h-10 items-center rounded ">
-                <h4 class="text-[#8ab319] flex text-[15px]">₱ 129 </h4> 
+                <h4 class="text-[#ffbf00] flex text-[15px]">₱ 129 </h4> 
             </div>
         </div>
             <img src="RABOKKI-transparent.png" alt="" class=" flex w-[50%] h-full object-cover ">
         </div>
         
-        <div class="card  w-[90%] flex justify-self-center h-40 mt-10 rounded shadow-[0px_0px_5px_1px_black] border-1 border-[#d6282850] ">
+        <div class="card  w-[90%] flex justify-self-center h-40 mt-10 rounded shadow-[0px_0px_5px_1px_black] border-1 border-[#FFBF00] ">
             <div class="details  flex-row w-[50%] h-full justify-center p-[5px] text-center">
-                <h2 class=" font-bold text-[red] [text-shadow:4px_4px_8px_black] ">GYERAN</h2>
+                <h2 class=" font-bold text-[#D62828] [text-shadow:4px_4px_8px_black] ">GYERAN</h2>
                 <p class="text-[11px] font-simibold text-[white] [text-shadow:0px_0px_10px_black]">Beef dosirak is a Korean lunchbox meal with seasoned beef, rice, and simple side dishes.</p>
                 <div class="price font-bold flex justify-center mt-3 shadow-[inset_0_0px_6px_1px_black] h-10 items-center rounded ">
-                <h4 class="text-[#8ab319] flex text-[15px]">₱ 129 </h4> 
+                <h4 class="text-[#ffbf00] flex text-[15px]">₱ 129 </h4> 
             </div>
         </div>
             <img src="GYERAN-RAMYUN-min.png" alt="" class=" flex w-[50%] h-full object-cover ">
         </div>
 
-        <div class="card  w-[90%] flex justify-self-center h-40 mt-10 rounded shadow-[0px_0px_5px_1px_black] border-1 border-[#d6282850] ">
+        <div class="card  w-[90%] flex justify-self-center h-40 mt-10 rounded shadow-[0px_0px_5px_1px_black] border-1 border-[#FFBF00] ">
             <div class="details  flex-row w-[50%] h-full justify-center p-[5px] text-center">
-                <h2 class=" font-bold text-[red] [text-shadow:4px_4px_8px_black] ">MARI</h2>
+                <h2 class=" font-bold text-[#D62828] [text-shadow:4px_4px_8px_black] ">MARI</h2>
                 <p class="text-[11px] font-simibold text-[white] [text-shadow:0px_0px_10px_black]">Beef dosirak is a Korean lunchbox meal with seasoned beef, rice, and simple side dishes.</p>
                 <div class="price font-bold flex justify-center mt-3 shadow-[inset_0_0px_6px_1px_black] h-10 items-center rounded ">
-                <h4 class="text-[#8ab319] flex text-[15px]">₱ 99 </h4> 
+                <h4 class="text-[#ffbf00] flex text-[15px]">₱ 99 </h4> 
             </div>
         </div>
             <img src="GYERAN-MARI-transparent.png" alt="" class=" flex w-[50%] h-full object-cover ">
         </div>
         
-        <div class="card  w-[90%] flex justify-self-center h-40 mt-10 rounded shadow-[0px_0px_5px_1px_black] border-1 border-[#d6282850] ">
+        <div class="card  w-[90%] flex justify-self-center h-40 mt-10 rounded shadow-[0px_0px_5px_1px_black] border-1 border-[#FFBF00] ">
             <div class="details  flex-row w-[50%] h-full justify-center p-[5px] text-center">
-                <h2 class=" font-bold text-[red] [text-shadow:4px_4px_8px_black] ">COKE</h2>
+                <h2 class=" font-bold text-[#D62828] [text-shadow:4px_4px_8px_black] ">COKE</h2>
                 <p class="text-[11px] font-simibold text-[white] [text-shadow:0px_0px_10px_black]">Beef dosirak is a Korean lunchbox meal with seasoned beef, rice, and simple side dishes.</p>
                 <div class="price font-bold flex justify-center mt-3 shadow-[inset_0_0px_6px_1px_black] h-10 items-center rounded ">
-                <h4 class="text-[#8ab319] flex text-[15px]">₱ 39 </h4> 
+                <h4 class="text-[#ffbf00] flex text-[15px]">₱ 39 </h4> 
                 </div>
             </div>
             <img src="COKE-ORIGINAL-320ML-min.png" alt="" class=" flex w-[50%] h-full object-cover soda">
         </div>
         
-        <div class="card  w-[90%] flex justify-self-center h-40 mt-10 rounded shadow-[0px_0px_5px_1px_black] border-1 border-[#d6282850] ">
+        <div class="card  w-[90%] flex justify-self-center h-40 mt-10 rounded shadow-[0px_0px_5px_1px_black] border-1 border-[#FFBF00] ">
             <div class="details  flex-row w-[50%] h-full justify-center p-[5px] text-center">
-                <h2 class=" font-bold text-[red] [text-shadow:4px_4px_8px_black] ">COKE-ZERO</h2>
+                <h2 class=" font-bold text-[#D62828] [text-shadow:4px_4px_8px_black] ">COKE-ZERO</h2>
                 <p class="text-[11px] font-simibold text-[white] [text-shadow:0px_0px_10px_black]">Beef dosirak is a Korean lunchbox meal with seasoned beef, rice, and simple side dishes.</p>
                 <div class="price font-bold flex justify-center mt-3 shadow-[inset_0_0px_6px_1px_black] h-10 items-center rounded ">
-                <h4 class="text-[#8ab319] flex text-[15px]">₱ 39 </h4> 
+                <h4 class="text-[#ffbf00] flex text-[15px]">₱ 39 </h4> 
                 </div>
             </div>
             <img src="COKE-ZERO-320ML-min.png" alt="" class=" flex w-[50%] h-full object-cover soda ">
         </div>
 
-        <div class="card  w-[90%] flex justify-self-center h-40 mt-10 rounded shadow-[0px_0px_5px_1px_black] border-1 border-[#d6282850] ">
+        <div class="card  w-[90%] flex justify-self-center h-40 mt-10 rounded shadow-[0px_0px_5px_1px_black] border-1 border-[#FFBF00] ">
             <div class="details  flex-row w-[50%] h-full justify-center p-[5px] text-center">
-                <h2 class=" font-bold text-[red] [text-shadow:4px_4px_8px_black] ">SPRITE</h2>
+                <h2 class=" font-bold text-[#D62828] [text-shadow:4px_4px_8px_black] ">SPRITE</h2>
                 <p class="text-[11px] font-simibold text-[white] [text-shadow:0px_0px_10px_black]">Beef dosirak is a Korean lunchbox meal with seasoned beef, rice, and simple side dishes.</p>
                 <div class="price font-bold flex justify-center mt-3 shadow-[inset_0_0px_6px_1px_black] h-10 items-center rounded ">
-                <h4 class="text-[#8ab319] flex text-[15px]">₱ 39 </h4> 
+                <h4 class="text-[#ffbf00] flex text-[15px]">₱ 39 </h4> 
                 </div>
             </div>
             <img src="SPRITE-320ML-min.png" alt="" class=" flex w-[50%] h-full object-cover soda ">
         </div>
 
-        <div class="card  w-[90%] flex justify-self-center h-40 mt-10 rounded shadow-[0px_0px_5px_1px_black] border-1 border-[#d6282850] ">
+        <div class="card  w-[90%] flex justify-self-center h-40 mt-10 rounded shadow-[0px_0px_5px_1px_black] border-1 border-[#FFBF00] ">
             <div class="details  flex-row w-[50%] h-full justify-center p-[5px] text-center">
-                <h2 class=" font-bold text-[red] [text-shadow:4px_4px_8px_black] ">GRAPEFRUIT</h2>
+                <h2 class=" font-bold text-[#D62828] [text-shadow:4px_4px_8px_black] ">GRAPEFRUIT</h2>
                 <p class="text-[11px] font-simibold text-[white] [text-shadow:0px_0px_10px_black]">Beef dosirak is a Korean lunchbox meal with seasoned beef, rice, and simple side dishes.</p>
                 <div class="price font-bold flex justify-center mt-3 shadow-[inset_0_0px_6px_1px_black] h-10 items-center rounded ">
-                <h4 class="text-[#8ab319] flex text-[15px]">₱ 99 </h4> 
+                <h4 class="text-[#ffbf00] flex text-[15px]">₱ 99 </h4> 
                 </div>
             </div>
             <img src="SOJU-GRAPEFRUIT.png" alt="" class=" flex w-[50%] h-full object-cover soda">
         </div>
         
-        <div class="card  w-[90%] flex justify-self-center h-40 mt-10 rounded shadow-[0px_0px_5px_1px_black] border-1 border-[#d6282850] ">
+        <div class="card  w-[90%] flex justify-self-center h-40 mt-10 rounded shadow-[0px_0px_5px_1px_black] border-1 border-[#FFBF00] ">
             <div class="details  flex-row w-[50%] h-full justify-center p-[5px] text-center">
-                <h2 class=" font-bold text-[red] [text-shadow:4px_4px_8px_black] ">SOJU-FRESH</h2>
+                <h2 class=" font-bold text-[#D62828] [text-shadow:4px_4px_8px_black] ">SOJU-FRESH</h2>
                 <p class="text-[11px] font-simibold text-[white] [text-shadow:0px_0px_10px_black]">Beef dosirak is a Korean lunchbox meal with seasoned beef, rice, and simple side dishes.</p>
                 <div class="price font-bold flex justify-center mt-3 shadow-[inset_0_0px_6px_1px_black] h-10 items-center rounded ">
-                <h4 class="text-[#8ab319] flex text-[15px]">₱ 99 </h4> 
+                <h4 class="text-[#ffbf00] flex text-[15px]">₱ 99 </h4> 
                 </div>
             </div>
             <img src="SOJU-FRESH-min.png"" class=" flex w-[50%] h-full object-cover soda ">
         </div>
 
-        <div class="card  w-[90%] flex justify-self-center h-40 mt-10 rounded shadow-[0px_0px_5px_1px_black] border-1 border-[#d6282850] ">
+        <div class="card  w-[90%] flex justify-self-center h-40 mt-10 rounded shadow-[0px_0px_5px_1px_black] border-1 border-[#FFBF00] ">
             <div class="details  flex-row w-[50%] h-full justify-center p-[5px] text-center">
-            <h2 class=" font-bold text-[red] [text-shadow:4px_4px_8px_black] ">STRAWBERRY</h2>
+            <h2 class=" font-bold text-[#D62828] [text-shadow:4px_4px_8px_black] ">STRAWBERRY</h2>
             <p class="text-[11px] font-simibold text-[white] [text-shadow:0px_0px_10px_black]">Beef dosirak is a Korean lunchbox meal with seasoned beef, rice, and simple side dishes.</p>
                 <div class="price font-bold flex justify-center mt-3 shadow-[inset_0_0px_6px_1px_black] h-10 items-center rounded ">
-                <h4 class="text-[#8ab319] flex text-[15px]">₱ 99 </h4> 
+                <h4 class="text-[#ffbf00] flex text-[15px]">₱ 99 </h4> 
                 </div>
         </div>
             <img src="SOJU-STRAWBERRY-min.png" alt="" class=" flex w-[50%] h-full object-cover soda ">
@@ -293,7 +293,6 @@
         </div>
 
 </div>
-    <script src="humb.js"></script>
+    <script src="menu.js"></script>
 </body>
 </html>
-
